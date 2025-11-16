@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>AVIS 메인화면</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Noto Sans KR', sans-serif;
+            background: #0f0f0f;
+            color: white;
+        }
+        .center {
+            text-align: center;
+            padding-top: 120px;
+        }
+        h1 {
+            font-size: 60px;
+            letter-spacing: 3px;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            font-size: 20px;
+            color: #cccccc;
+            margin-bottom: 50px;
+        }
+        .card {
+            width: 400px;
+            margin: 0 auto;
+            background: rgba(255,255,255,0.05);
+            padding: 30px;
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 0 20px rgba(255,255,255,0.1);
+        }
+        .name {
+            font-size: 28px;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+        .info {
+            font-size: 16px;
+            line-height: 1.8;
+            color: #dddddd;
+        }
+        footer {
+            text-align: center;
+            margin-top: 80px;
+            color: #666;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="center">
+    <h1>AVIS</h1>
+    <div class="subtitle">해외선물투자시스템에 오신것을 환영합니다</div>
+
+    <div class="card">
+        <div class="name">대표시스템플래너 · 최정원</div>
+        <div class="info">
+            📱 Mobile: 010-4243-3087 <br>
+            ✉ Email: moksung0@gmail.com
+        </div>
+    </div>
+</div>
+
+<footer>
+    © 2025 AVIS. All Rights Reserved.
+</footer>
+
+</body>
+</html>
