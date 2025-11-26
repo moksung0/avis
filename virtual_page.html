@@ -10,11 +10,13 @@
             margin: 0;
             height: 100vh;
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             background: #111;
             font-family: 'Segoe UI', Arial, sans-serif;
             color: #d4af37;
+            position: relative;
         }
 
         .card {
@@ -31,7 +33,7 @@
 
         h2 {
             font-size: 28px;
-            margin: 0 0 20px 0;
+            margin-bottom: 18px;
             font-weight: 300;
         }
 
@@ -52,11 +54,34 @@
             border-radius: 6px;
             font-weight: bold;
             letter-spacing: 1px;
-            transition: 0.25s;
+            transition: 0.28s;
         }
 
+        /* 🔥 애니메이션 버튼 */
         .email-btn:hover {
             background: #b9982f;
+            transform: scale(1.07);
+            box-shadow: 0 0 18px rgba(212, 175, 55, 0.7);
+        }
+
+        /* 🔙 하단 AVIS로 돌아가기 버튼 */
+        .back-home {
+            position: absolute;
+            bottom: 30px;
+            font-size: 18px;
+            border: 1px solid #d4af37;
+            padding: 10px 25px;
+            border-radius: 6px;
+            color: #d4af37;
+            text-decoration: none;
+            transition: 0.28s;
+        }
+
+        .back-home:hover {
+            background: #d4af37;
+            color: #000;
+            transform: scale(1.06);
+            box-shadow: 0 0 15px rgba(212, 175, 55, 0.5);
         }
 
         @keyframes fadeIn {
@@ -74,6 +99,9 @@
 
         <a class="email-btn" href="mailto:moksung0@gmail.com">이메일 보내기</a>
     </div>
+
+    <!-- 하단 AVIS로 돌아가기 버튼 -->
+    <a href="main.html" class="back-home">AVIS로 돌아가기</a>
 
 </body>
 </html>
